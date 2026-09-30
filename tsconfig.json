@@ -1,0 +1,13 @@
+{
+  "extends": "@zakodium/tsconfig",
+  "compilerOptions": {
+    // The parser is written against the web platform — DecompressionStream,
+    // ReadableStream and Response — so it runs unchanged in a browser and in
+    // Node. The base config ships ES2023 only.
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "noUncheckedIndexedAccess": true,
+    "outDir": "lib",
+    "types": ["node"]
+  },
+  "include": ["src", "vite*.ts"]
+}
