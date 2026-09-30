@@ -1,6 +1,6 @@
 {
   "name": "picolog-parser",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parse PicoLog 6 recordings (.picolog) from Pico Technology data loggers",
   "type": "module",
   "exports": {
